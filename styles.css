@@ -1,0 +1,55 @@
+body{
+    margin:150px;
+    background-color:none;
+}
+
+.info {
+    font-size: 24px;
+    background-color:aliceblue;
+    padding:10px;
+}
+table{
+    width:100%;
+}
+table, tr, td, th{
+    
+    border:double;
+}
+table td{
+    font-size:24px;
+}
+table th{
+        font-size: 36px;
+        align-content:start;
+    }
+.name {
+    color: brown;
+    padding: initial;
+    font-size: 64px;
+    margin:5px;
+    margin-left:0px;
+}
+
+img { 
+    float:right;
+    border:outset;
+    border-radius:150px;
+    
+}
+.credentials_list {
+    list-style-type: square;
+    background-color:palegoldenrod;
+}
+.credentials_list li{
+    font-size:24px;
+    
+}
+
+h2 {
+    font-size:36px;
+    background-color:lightblue;
+    background-blend-mode:lighten;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:15px;
+}
