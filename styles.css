@@ -1,5 +1,5 @@
 body{
-    margin:150px;
+    margin:75px;
     background-color:none;
 }
 
@@ -11,17 +11,18 @@ body{
 table{
     width:100%;
 }
-table, tr, td, th{
-    
-    border:double;
+table, tr, td, th {
+    padding: 20px;
+    text-align: left;
+    border:2px solid;
+
 }
-table td{
-    font-size:24px;
+table td {
+     font-size: 24px;
 }
 table th{
         font-size: 36px;
-        align-content:start;
-    }
+}
 .name {
     color: brown;
     padding: initial;
@@ -32,7 +33,7 @@ table th{
 
 img { 
     float:right;
-    border:outset;
+    border:1px solid;
     border-radius:150px;
     
 }
@@ -52,4 +53,11 @@ h2 {
     margin-top:20px;
     margin-bottom:20px;
     padding:15px;
+}
+
+ul li {
+    font-size: 24px;
+}
+ol {
+    font-size:24px;
 }
